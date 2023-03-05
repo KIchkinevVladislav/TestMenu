@@ -1,5 +1,4 @@
 # Тестовое задание АпТрейдер (UpTrader)
-Website for legal education for children
 
 #### Django app, реализовывающий древовидное меню со следующими условиями
 
