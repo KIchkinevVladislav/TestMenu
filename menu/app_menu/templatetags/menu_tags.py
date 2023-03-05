@@ -4,7 +4,7 @@ from ..models import TreeMenu
 register = Library()
 
 
-@register.inclusion_tag('menu.html', takes_context=True)
+@register.inclusion_tag('app_menu/menu.html', takes_context=True)
 def draw_menu(context: RequestContext, name: str = 'main_menu'):
     cur_section = context.request.GET.get('section')
     menu_queryset = TreeMenu.objects.select_related('category', 'parent').filter(category__systemic_name=name)

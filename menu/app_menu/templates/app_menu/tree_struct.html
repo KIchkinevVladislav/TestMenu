@@ -3,7 +3,7 @@
     {% if childes %}
     <ul>
         {% for sect, ch in childes.items %}
-        {% with section=sect childes=ch template_name="tree_struct.html" %}
+        {% with section=sect childes=ch template_name="app_menu/tree_struct.html" %}
         {% include template_name %}
         {% endwith %}
         {% endfor %}

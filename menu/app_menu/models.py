@@ -60,8 +60,8 @@ class TreeMenu(models.Model):
 
 
     class Meta:
-        verbose_name ='Меню',
-        verbose_name_plural='Меню',
+        verbose_name ='Меню'
+        verbose_name_plural='Меню'
         ordering = ['name']
 
     
