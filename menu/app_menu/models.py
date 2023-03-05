@@ -39,7 +39,7 @@ class TreeMenu(models.Model):
         verbose_name='Название',
         max_length=250,
     )
-    categoty = models.ForeignKey(
+    category = models.ForeignKey(
         TreeMenuCategories,
         verbose_name='Категория',
         on_delete=models.CASCADE,
