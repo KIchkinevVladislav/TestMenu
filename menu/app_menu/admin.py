@@ -15,3 +15,4 @@ class TreeMenuAdmin(admin.ModelAdmin):
 class TreeMenuCategoriesAdmin(admin.ModelAdmin):
     list_display = ('pk', 'name', 'systemic_name',)
     list_display_links = ('pk', 'name',)
+    
