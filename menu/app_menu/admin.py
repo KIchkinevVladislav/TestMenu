@@ -5,6 +5,7 @@ from .models import TreeMenu, TreeMenuCategories
 Register the created models 
 for their processing by the administrator
 """
+
 @admin.register(TreeMenu)
 class TreeMenuAdmin(admin.ModelAdmin):
     list_display = ('pk', 'name', 'category', 'link', 'parent',)
