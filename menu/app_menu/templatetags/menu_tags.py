@@ -37,6 +37,7 @@ def draw_menu(context: RequestContext, name: str = 'main_menu'):
     if active_sections:
         first_section = active_sections[::-1][0]
 
+        
     def generate_tree_data(section) -> dict:
         section_data = {section: dict()}
         for sect_obj in menu_queryset:
