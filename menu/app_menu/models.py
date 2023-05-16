@@ -16,7 +16,6 @@ class TreeMenuCategories(models.Model):
         unique=True,
     )
 
-
     class Meta:
         verbose_name='Категория Меню'
         verbose_name_plural='Категории Меню'
