@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class TreeMenuCategories(models.Model):
     """
     Model for menu grouping
