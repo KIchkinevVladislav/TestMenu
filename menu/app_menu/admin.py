@@ -1,6 +1,5 @@
 from django.contrib import admin
 from .models import TreeMenu, TreeMenuCategories
-
 """
 Register the created models 
 for their processing by the administrator
